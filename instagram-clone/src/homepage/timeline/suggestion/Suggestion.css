@@ -1,0 +1,49 @@
+.suggestion{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.suggestion__switch{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.suggestion__switch__left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 200px;
+
+}
+.suggestion__separator{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.suggestion__buttons{
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  background:0;
+  border:0;
+ 
+  border-radius: 15px;
+  font-size: medium;
+  
+
+}
+button:hover{
+  cursor:pointer;
+  color: white;
+}
+span{
+  margin-left:10px;
+}
